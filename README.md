@@ -1,10 +1,10 @@
-# Copper Production Geography Dryness Demo
+# Copper Production Geography Dryness
 
-This repository is a minimal, public-safe demonstration package for the study:
+This repository is a minimal, public-safe release package for the study:
 
 **Production geography concentrates dryness exposure in global copper supply**
 
-The package reproduces demonstration figures from derived, non-restricted tables only. It is intentionally **not** a raw-data repository and does not redistribute raw CHIRPS files, raw mine-point inventories, manuscript submission files, or local working caches.
+The package reproduces figures from derived, non-restricted tables only. It is intentionally **not** a raw-data repository and does not redistribute raw CHIRPS files, raw mine-point inventories, manuscript submission files, or local working caches.
 
 ## Contents
 
@@ -17,40 +17,40 @@ data/
   manuscript_authority_table.csv
   supplementary_data_index.csv
 scripts/
-  build_demo_figures.py
+  build_figures.py
 outputs/
-  Figure_1_Share_Exposure_Scatter_Demo.{png,pdf,svg}
-  Figure_2_CPWE_GLI_Coverage_Demo.{png,pdf,svg}
-  Figure_3_Top_Country_Contribution_Demo.{png,pdf,svg}
-  Figure_4_Controls_Demo.{png,pdf,svg}
+  Figure_1_Share_Exposure_Scatter.{png,pdf,svg}
+  Figure_2_CPWE_GLI_Coverage.{png,pdf,svg}
+  Figure_3_Top_Country_Contribution.{png,pdf,svg}
+  Figure_4_Controls.{png,pdf,svg}
 DATA_PROVENANCE.md
 SANITIZATION_REPORT.md
-manifest_public_demo_20260526.md
+manifest_public_release_20260526.md
 requirements.txt
 ```
 
-## What This Demo Shows
+## What This Package Shows
 
-The demo preserves the study's evidence boundary:
+The package preserves the study's evidence boundary:
 
 - production geography weights dryness exposure rather than simple spatial averaging;
 - copper ranks first by country-production-weighted exposure in the six-metal comparison set;
 - top-country structure is dominated by Chile, DR Congo, Peru, and Zambia;
 - controls bound unusual allocation and single-country dominance.
 
-The demo does **not** claim:
+The package does **not** claim:
 
 - supply interruption;
 - price transmission;
 - causal attribution;
 - a completed multi-metal mechanism.
 
-## Rebuild The Demo Figures
+## Rebuild The Figures
 
 Create an environment with Python 3, `pandas`, and `matplotlib`, then run:
 
 ```bash
-python scripts/build_demo_figures.py
+python scripts/build_figures.py
 ```
 
 The script writes PNG, PDF, and SVG outputs into `outputs/`.
