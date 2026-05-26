@@ -1,8 +1,8 @@
 # Sanitization Report
 
-- package_root: `github_release/copper_production_geography_demo_20260526`
+- package_root: `github_release/copper_production_geography_public_release_20260526`
 - scan_date: `2026-05-26`
-- scan_scope: `all text files under the demo release folder`
+- scan_scope: `all text files under the public release folder`
 
 ## Checked patterns
 
@@ -22,14 +22,14 @@ Two keyword hits were found in `README.md`, but both were exclusion statements r
 - `cover letters and declarations`
 - `manuscript DOCX, cover letters, declarations, or submission forms`
 
-These lines describe what is **not** included in the public demo and were retained intentionally.
+These lines describe what is **not** included in the public release and were retained intentionally.
 
 ## Release boundary
 
 Included:
 
 - derived figure-ready CSV files
-- public-safe demo plotting code
+- public-safe plotting code
 - README and provenance notes
 
 Excluded:
