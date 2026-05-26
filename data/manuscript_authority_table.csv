@@ -1,0 +1,10 @@
+metric_family,buffer_km,authority_value,display_value,support_file,note
+coverage,50,0.8523043478260867,85.2%,Fig2_cpwe_gli_coverage_source_data.csv,Observed/background coverage share used in main manuscript and ST1.
+coverage,100,0.8701304347826083,87.0%,Fig2_cpwe_gli_coverage_source_data.csv,Observed/background coverage share used in main manuscript and ST1.
+coverage,200,0.8701304347826083,87.0%,Fig2_cpwe_gli_coverage_source_data.csv,Observed/background coverage share used in main manuscript and ST1.
+cpwe,50,0.3052573269046034,0.305,Fig2_cpwe_gli_coverage_source_data.csv,Production-weighted exposure values used in main text and Fig. 2.
+cpwe,100,0.2881109956528177,0.288,Fig2_cpwe_gli_coverage_source_data.csv,Production-weighted exposure values used in main text and Fig. 2.
+cpwe,200,0.2572577772411374,0.257,Fig2_cpwe_gli_coverage_source_data.csv,Production-weighted exposure values used in main text and Fig. 2.
+shuffle_null,50,0.2312948767736642,0.231,Fig4_controls_source_data.csv,Production-share shuffle null mean used in main text and ST5.
+shuffle_null,100,0.2172895359653124,0.217,Fig4_controls_source_data.csv,Production-share shuffle null mean used in main text and ST5.
+shuffle_null,200,0.2035438411868886,0.204,Fig4_controls_source_data.csv,Production-share shuffle null mean used in main text and ST5.
